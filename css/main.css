@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  margin: auto;
+}
+
+header {
+  background-color: #d05c2e;
+  color: white;
+}
+
+h1 {
+  padding: .4rem 0;
+  margin: auto;
+  font-size: 2rem;
+}
+
+img {
+  width: 40px;
+  padding: .5em 0 0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+li{
+  list-style: none;
+  padding: 0;
+  margin-left: auto;
+  background-color: #d05c2e;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.125rem;
+  display: inline-block;
+  padding: .5em 0 0;
+  color: white;
+}
+
+ul {
+  padding-left: 0;
+}
